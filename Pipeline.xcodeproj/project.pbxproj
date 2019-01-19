@@ -11,6 +11,9 @@
 		83BE095A21F2A88700B5C64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE095921F2A88700B5C64D /* ViewController.swift */; };
 		83BE095C21F2A88900B5C64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BE095B21F2A88900B5C64D /* Assets.xcassets */; };
 		83BE095F21F2A88900B5C64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BE095D21F2A88900B5C64D /* Main.storyboard */; };
+		83BE096821F2AA9100B5C64D /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE096721F2AA9100B5C64D /* Renderer.swift */; };
+		83BE096A21F2ACEB00B5C64D /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE096921F2ACEB00B5C64D /* Primitive.swift */; };
+		83BE096C21F37A3C00B5C64D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 83BE096B21F37A3C00B5C64D /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		83BE095E21F2A88900B5C64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83BE096021F2A88900B5C64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BE096121F2A88900B5C64D /* Pipeline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pipeline.entitlements; sourceTree = "<group>"; };
+		83BE096721F2AA9100B5C64D /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		83BE096921F2ACEB00B5C64D /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		83BE096B21F37A3C00B5C64D /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 		83BE095621F2A88700B5C64D /* Pipeline */ = {
 			isa = PBXGroup;
 			children = (
+				83BE096921F2ACEB00B5C64D /* Primitive.swift */,
 				83BE095721F2A88700B5C64D /* AppDelegate.swift */,
 				83BE095921F2A88700B5C64D /* ViewController.swift */,
+				83BE096721F2AA9100B5C64D /* Renderer.swift */,
+				83BE096B21F37A3C00B5C64D /* Shaders.metal */,
 				83BE095B21F2A88900B5C64D /* Assets.xcassets */,
 				83BE095D21F2A88900B5C64D /* Main.storyboard */,
 				83BE096021F2A88900B5C64D /* Info.plist */,
@@ -134,7 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BE095A21F2A88700B5C64D /* ViewController.swift in Sources */,
+				83BE096821F2AA9100B5C64D /* Renderer.swift in Sources */,
 				83BE095821F2A88700B5C64D /* AppDelegate.swift in Sources */,
+				83BE096A21F2ACEB00B5C64D /* Primitive.swift in Sources */,
+				83BE096C21F37A3C00B5C64D /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
